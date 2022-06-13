@@ -1,0 +1,148 @@
+#subtitle.dlightT .wrap{
+
+  text-align: center;
+  padding: inherit;
+}
+
+#dlight {
+  padding-top: 0;
+  }
+#dlight .wrap {
+  position: relative;
+}
+#dlight .dlight {
+  background-color: #999;
+  color: #d8d4d4;
+  font-size: 12px;
+  line-height: 3;
+  padding-left: 20px;
+}
+#dlight h2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  line-height: 36px;
+  font-size: 13px;
+  color: #fff;
+}
+#dlight h2::after{
+  content: "";
+  width: 20px;
+  height: 2px;
+  background-color: #eee;
+  display: block;
+  margin: 0 auto;
+  margin-top: -6px;
+}
+
+#dlight .f1 {
+  
+}
+#dlight .f1 .basic{
+  
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  padding: 30px;
+  position: relative;
+  margin-bottom: 50px;
+  align-content: end;
+}
+#dlight .f1 .basic::after{
+  content:"";
+  width: 45%;
+  display: block;
+  height: 250px;
+  
+  background-color: #ccc;
+  position: absolute;
+  left: 50%;
+  top: 30px;
+}
+#dlight h3{
+  
+  line-height: 3;
+  margin-right: 30px;
+}
+#dlight h3::after {
+  display: flex;
+  border: 1px solid #ccc;
+}
+
+#dlight .p {
+  width: 40%;
+  line-height: 2;
+  text-align: inherit;
+  padding-right: 50px;
+}
+#dlight a{
+  
+  border: 1px solid #ddd;
+  width: 100px;
+  height: 40px;
+  line-height: 2;
+  text-align: center;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-right: calc(45% - 100px);
+} 
+#dlight ul.list {
+  
+  line-height: 2;
+  font-size: 13px;
+  display: flex;
+  padding: 30px;
+  border: 1px solid #eee;
+  margin: 30px;
+}
+#dlight ul.list li{
+  
+  width: 100%;
+  line-height: 2;
+  font-size: 13px;
+}
+
+#dlight ul.list > li:nth-child(2){
+  border-left: 1px solid #ddd;
+  padding-left: 30px;
+}
+
+#dlight ul.list li > strong{
+  
+  display: inline-block;
+  width: 100px;
+}
+#dlight ul.list li h4{
+  
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+
+#dlight .b1{
+  
+  width: 100%;
+}
+#dlight .b1 .basic{
+ display: flex;
+  flex-direction: column;
+  height: 300px;
+  padding: 30px;
+  position: relative;
+  margin-bottom: 50px;
+ align-items: end;
+ padding-right: 30px;
+}
+#dlight .b1 .basic::after{
+  content:"";
+  width: 45%;
+  display: block;
+  height: 250px;
+  background-color: #ccc;
+  position: absolute;
+  left: 0%;
+  top: 30px;
+}
